@@ -1,6 +1,6 @@
 ## 학습 보조 프로그램
 
-### STT(Speech-to-Text)
+#### STT(Speech-to-Text)
 
 ##### hihi.mp3 : 내가 "안녕하세요"라고 말하는 mp3 파일
 
