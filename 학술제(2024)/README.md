@@ -6,8 +6,8 @@
 
 - Speech_to_Text.ipynb -> 음성 데이터 분석 정리 내용(미완성), class 실행 결과 포함
 
-- tss_class.py -> class만 따로
-  - 출력 결과
+- tss_class.py -> class만 따로 + 돌릴려면 Whisper 다운 받아야 함(pip install whisper, pip install -U openai-whisper)
+  - 출력 결과(맨 아래에 인식한 내용 출력)
     ```
     100%|███████████████████████████████████████| 139M/139M [00:01<00:00, 79.6MiB/s]
     /usr/local/lib/python3.10/dist-packages/whisper/__init__.py:150: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
