@@ -6,7 +6,8 @@
 
 - Speech_to_Text.ipynb -> 음성 데이터 분석 정리 내용(미완성), class 실행 결과 포함
 
-- tss_class.py -> class만 따로 + 돌릴려면 Whisper 다운 받아야 함(pip install whisper, pip install -U openai-whisper)
+- tss_class.py -> class만 따로 
+  - 돌릴려면 Whisper 다운 받아야 함(pip install whisper, pip install -U openai-whisper)
   - 출력 결과(맨 아래에 인식한 내용 출력)
     ```
     100%|███████████████████████████████████████| 139M/139M [00:01<00:00, 79.6MiB/s]
